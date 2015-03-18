@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
                    *  I wrote this to show people how to make one of these
                    DESC
 
-  s.homepage     = "http://EXAMPLE/Jail"
+  s.homepage     = "https://github.com/surajshindalkar/Jail"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -75,7 +75,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/Jail.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/surajshindalkar/Jail.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -125,7 +125,7 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # s.requires_arc = true
+  s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
